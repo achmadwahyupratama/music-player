@@ -1,0 +1,34 @@
+{
+  "name": "mini-music-player-server",
+  "version": "1.0.0",
+  "description": "API server for mini music player web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=development&& npx nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmt-11-kiev-fox/mini-music-player-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmt-11-kiev-fox/mini-music-player-server/issues"
+  },
+  "homepage": "https://github.com/rmt-11-kiev-fox/mini-music-player-server#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "dotenv": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
